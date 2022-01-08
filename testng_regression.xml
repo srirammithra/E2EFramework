@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+
+<listeners>
+ <listener class-name="listener.MyTestNGListener" />
+</listeners>
+
+<test name="TC01">
+ <classes>
+  <class name="regressionsuite.TC01VerifyHomePageTest"/>
+ </classes>
+</test> <!-- Test -->
+
+<test name="TC02">
+ <classes>
+  <class name="regressionsuite.TC02VerifyUsersPageTest"/>
+ </classes>
+</test> <!-- Test -->
+
+<test name="TC03">
+ <classes>
+  <class name="regressionsuite.TC03VerifyTasksPageTest"/>
+ </classes>
+</test> <!-- Test -->
+
+<test name="TC04">
+ <classes>
+  <class name="regressionsuite.TC04CreateNewUserTest"/>
+ </classes>
+</test> <!-- Test -->
+
+<test name="TC05">
+ <classes>
+  <class name="regressionsuite.TC05CreateNewTaskTest"/>
+ </classes>
+</test> <!-- Test -->
+
+</suite> <!-- Suite -->

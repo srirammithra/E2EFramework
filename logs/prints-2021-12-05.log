@@ -1,0 +1,5 @@
+23:09:29.215 [TestNG-tests-1] INFO  regressionsuite.TC05CreateNewTaskTest - Home page opened
+23:09:43.216 [TestNG-tests-2] INFO  regressionsuite.TC04CreateNewUserTest - Users page opened
+23:09:44.061 [TestNG-tests-1] INFO  regressionsuite.TC05CreateNewTaskTest - Tasks page opened
+23:09:58.407 [TestNG-tests-2] INFO  regressionsuite.TC04CreateNewUserTest - New user added successfully
+23:10:57.502 [AsyncHttpClient-1-3] DEBUG io.netty.buffer.PoolThreadCache - Freed 15 thread-local buffer(s) from thread: AsyncHttpClient-1-3

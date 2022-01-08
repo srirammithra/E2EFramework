@@ -1,0 +1,5 @@
+20:48:50.502 [TestNG-tests-1] INFO  library.TestBase - Home page opened
+20:48:57.406 [TestNG-tests-1] INFO  library.TestBase - Tasks page opened
+20:50:07.673 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.PoolThreadCache - Freed 6 thread-local buffer(s) from thread: AsyncHttpClient-1-2
+20:50:07.673 [AsyncHttpClient-1-4] DEBUG io.netty.buffer.PoolThreadCache - Freed 27 thread-local buffer(s) from thread: AsyncHttpClient-1-4
+20:50:07.677 [AsyncHttpClient-1-5] DEBUG io.netty.buffer.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-5
