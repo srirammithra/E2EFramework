@@ -28,6 +28,8 @@ import com.aventstack.extentreports.ExtentTest;
  * 
  * @author SRIRAM MITHRA
  *         https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html
+ *         java -jar jenkins.war --httpPort=9090
+ *         https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
  *
  */
 
