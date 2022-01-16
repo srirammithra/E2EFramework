@@ -30,6 +30,7 @@ import com.aventstack.extentreports.ExtentTest;
  *         https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html
  *         java -jar jenkins.war --httpPort=9090
  *         https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+ *         http://www.javabyexamples.com/set-system-property-for-tests
  *
  */
 
@@ -92,7 +93,12 @@ public class TestBase {
 
 	public WebDriver LaunchBrowser() throws FileNotFoundException, IOException {
 		GetGlobalProperties();
-		varBrowser = objGlobalProperties.getProperty("browser").toUpperCase();
+		// Read the browser param from surefire plugin
+		if (System.getProperty("executionBrowser") != null) {
+			varBrowser = System.getProperty("executionBrowser");
+		} else {
+			varBrowser = objGlobalProperties.getProperty("browser").toUpperCase();
+		}
 		switch (varBrowser) {
 		case "CHROME":
 			System.setProperty("webdriver.chrome.driver",
