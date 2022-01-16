@@ -86,7 +86,7 @@
   <version>3.0.0-M5</version>
   <configuration>
   <suiteXmlFiles>
-  <suiteXmlFile>testng_regression.xml</suiteXmlFile>
+  <suiteXmlFile>${XML}</suiteXmlFile>
   </suiteXmlFiles>
   <systemPropertyVariables>
   <execution.browser>${browser}</execution.browser>
