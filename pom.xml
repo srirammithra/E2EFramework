@@ -89,7 +89,7 @@
   <suiteXmlFile>testng_regression.xml</suiteXmlFile>
   </suiteXmlFiles>
   <systemPropertyVariables>
-  <executionBrowser>${browser}</executionBrowser>
+  <execution.browser>${browser}</execution.browser>
   <buildDirectory>${project.build.directory}</buildDirectory>
   </systemPropertyVariables>
   </configuration>
