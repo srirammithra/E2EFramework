@@ -90,6 +90,7 @@
   </suiteXmlFiles>
   <systemPropertyVariables>
   <executionBrowser>${browser}</executionBrowser>
+  <buildDirectory>${project.build.directory}</buildDirectory>
   </systemPropertyVariables>
   </configuration>
   </plugin>
