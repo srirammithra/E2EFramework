@@ -99,6 +99,7 @@ public class TestBase {
 		} else {
 			varBrowser = objGlobalProperties.getProperty("browser").toUpperCase();
 		}
+		System.out.println("BROWSER: " + varBrowser);
 		switch (varBrowser) {
 		case "CHROME":
 			System.setProperty("webdriver.chrome.driver",
