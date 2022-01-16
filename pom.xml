@@ -88,6 +88,9 @@
   <suiteXmlFiles>
   <suiteXmlFile>testng_regression.xml</suiteXmlFile>
   </suiteXmlFiles>
+  <systemPropertyVariables>
+  <executionBrowser>${varBrowser}</executionBrowser>
+  </systemPropertyVariables>
   </configuration>
   </plugin>
   
