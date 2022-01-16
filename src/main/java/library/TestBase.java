@@ -94,8 +94,8 @@ public class TestBase {
 	public WebDriver LaunchBrowser() throws FileNotFoundException, IOException {
 		GetGlobalProperties();
 		// Read the browser param from surefire plugin
-		if (System.getProperty("execution.browser") != null) {
-			varBrowser = System.getProperty("execution.browser");
+		if (System.getProperty("browser") != null) {
+			varBrowser = System.getProperty("browser");
 		} else {
 			varBrowser = objGlobalProperties.getProperty("browser").toUpperCase();
 		}

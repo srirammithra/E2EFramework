@@ -89,8 +89,7 @@
   <suiteXmlFile>testng_regression.xml</suiteXmlFile>
   </suiteXmlFiles>
   <systemPropertyVariables>
-  <execution.browser>BING</execution.browser>
-  <buildDirectory>${project.build.directory}</buildDirectory>
+  <execution.browser>${browser}</execution.browser>
   </systemPropertyVariables>
   </configuration>
   </plugin>
