@@ -22,11 +22,14 @@ public class ExtentManager {
 		if (objExtentReports == null) {
 			objExtentReports = new ExtentReports();
 			Date objDate = new Date();
-			String varReportFolder = objDate.toString().replaceAll(":", "-");
+			// String varReportFolder = objDate.toString().replaceAll(":", "-");
 			String varReportPath = System.getProperty("user.dir") + "\\reports\\";
-			File objFile = new File(varReportPath + varReportFolder);
+			// File objFile = new File(varReportPath + varReportFolder);
+			File objFile = new File(varReportPath);
 			objFile.mkdir();
-			objExtentSparkReporter = new ExtentSparkReporter(varReportPath + varReportFolder);
+			// objExtentSparkReporter = new ExtentSparkReporter(varReportPath +
+			// varReportFolder);
+			objExtentSparkReporter = new ExtentSparkReporter(varReportPath);
 			objExtentSparkReporter.config().setReportName("Selenium Framework Report");
 			objExtentSparkReporter.config().setDocumentTitle("Selenium Tests");
 			objExtentSparkReporter.config().setTheme(Theme.DARK);
